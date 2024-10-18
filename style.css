@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 8px 8px 8px #0000001f;
     
 }
 
@@ -64,7 +65,7 @@ footer {
         flex-direction: column;
         border-radius: 8px;
         text-align: center;
-        
+        box-shadow: 8px 8px 8px #0000001f;
     }
     
     .container img {
