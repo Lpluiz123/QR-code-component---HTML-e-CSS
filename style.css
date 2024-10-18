@@ -33,26 +33,18 @@ body {
     border-radius: 8px;
 }
 
-.content {
-    padding: 10px;
-    width: 220px;
-}
 
-.content h1 {
-    font-size: 17px;
+.container h1 {
+    font-size: 18px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
-.content p {
+.container p {
     color: hsl(216, 15%, 48%);
     font-weight: 400;
-    font-size: 10px;
-    padding: 15px;
-}
-
-footer {
-    margin-top: 20px;
+    font-size: 12px;
+    padding: 15px 10px 15px 10px;
 }
 
 @media (max-width: 300px) {
@@ -74,26 +66,16 @@ footer {
         border-radius: 8px;
     }
     
-    .content {
-        padding: 10px;
-        width: 200px;
-    }
-    
-    .content h1 {
+    .container h1 {
         font-size: 15px;
         font-weight: 700;
         color: hsl(218, 44%, 22%);
     }
     
-    .content p {
+    .container p {
         color: hsl(216, 15%, 48%);
         font-weight: 400;
         font-size: 9px;
-        padding: 15px;
-    }
-    
-    footer {
-        margin-top: 20px;
-        font-size: 15px;
+        padding: 15px 10px 15px 10px;
     }
   }
